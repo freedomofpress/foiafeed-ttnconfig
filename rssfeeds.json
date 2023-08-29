@@ -108,6 +108,12 @@
         "redirectLinks": false
     },
     {
+        "url": "https://www.404media.co/rss",
+        "outlet": "404 Media",
+        "delicateURLs": false,
+        "redirectLinks": false
+    },
+    {
         "url": "http://feedshack.biz/ap_rss.xml",
         "outlet": "Associated Press",
         "delicateURLs": false,
