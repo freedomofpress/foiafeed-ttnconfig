@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 
-def check(article):
+def check_article(article):
+
     blocked = False
 
     # Rules that require a BeautifulSoup parse:
@@ -30,5 +31,15 @@ def check(article):
     # redirected but may not in some cases.
     if 'tracking.feedpress' in article.url:
         blocked = True
+
+    return blocked
+
+def check_paragraph(article, paragraph):
+    blocked = False
+
+    if article.outlet == '404 Media':
+        # Jason Koebler's bio affirms their love for FOIA, resulting in false positives
+        if 'cofounder of 404' in paragraph:
+            blocked = True
 
     return blocked
