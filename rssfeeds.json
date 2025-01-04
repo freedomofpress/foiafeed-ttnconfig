@@ -24,7 +24,7 @@
         "redirectLinks": false
     },
     {
-        "url": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
         "outlet": "New York Times",
         "delicateURLs": false,
         "redirectLinks": false
@@ -66,7 +66,7 @@
         "redirectLinks": true
     },
     {
-        "url": "https://feeds.thedailybeast.com/rss/articles",
+        "url": "https://www.thedailybeast.com/arc/outboundfeeds/rss/articles/",
         "outlet": "The Daily Beast",
         "delicateURLs": false,
         "redirectLinks": false
@@ -84,8 +84,8 @@
         "redirectLinks": false
     },
     {
-        "url": "https://motherboard.vice.com/en_us/rss",
-        "outlet": "Motherboard",
+        "url": "https://www.vice.com/en/feed/",
+        "outlet": "VICE",
         "delicateURLs": false,
         "redirectLinks": false
     },
